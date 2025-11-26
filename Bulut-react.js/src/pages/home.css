@@ -1,0 +1,104 @@
+/* GENEL SAYFA YAPISI */
+.home {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  background-color: #f5f8fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* SOL MENÜ */
+.home-div {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+/* PROFİL MENÜSÜ */
+.profil {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 90%;
+  max-width: 250px;
+  margin-top: 30px;
+}
+
+.profil button {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 10px 15px;
+  border-radius: 30px;
+  transition: 0.3s ease;
+}
+
+.profil button:hover {
+  background-color: rgba(29, 155, 240, 0.1);
+  color: #1d9bf0;
+  transform: scale(1.03);
+}
+
+.profil h3 {
+  margin-left: 10px;
+  font-size: 17px;
+}
+
+/* ORTA KISIM */
+.home-div-ort {
+  flex: 2;
+  padding: 20px;
+  background-color: #fff;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  overflow-y: auto;
+}
+
+/* SAĞ TARAFTAKİ GÜNDEM ALANI */
+.gündem-manşet {
+  flex: 1;
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 15px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.05);
+  height: fit-content;
+}
+/* KEŞFET BUTONU */
+.Kesfet {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 90%;
+  max-width: 250px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 10px 15px;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  color: #0f1419;
+}
+
+.Kesfet:hover {
+  background-color: rgba(29, 155, 240, 0.1);
+  color: #1d9bf0;
+  transform: scale(1.03);
+}
+.Kesfet h3 {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 700; /* ← yazıyı kalın yapar */
+}
+
+.Kesfet svg {
+  width: 28px;
+  height: 28px;
+  color: inherit;
+  transition: color 0.3s ease;
+}

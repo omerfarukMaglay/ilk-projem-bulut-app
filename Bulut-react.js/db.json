@@ -1,0 +1,63 @@
+{
+  "paylasimlar": [
+    {
+      "id": "1",
+      "isim": "Ömer",
+      "şifre": "1234",
+      "yazi": "Bugün güzel bir gün!",
+      "biyografisi": "dünya boştur lo",
+      "takip": 0,
+      "takipçi": 0,
+      "paylasimsayısı": 2,
+      "paylasimlar": [
+        {
+          "id": 1,
+          "yazi": "Bugün güzel bir gün!",
+          "url": "react.png",
+          "video": null
+        },
+        {
+          "id": 2,
+          "yazi": "Kahvemi aldım ☕",
+          "url": "react.png",
+          "video": null
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "isim": "Ayşe",
+      "şifre": "1234",
+      "yazi": "Kahvemi aldım, kodlamaya başlıyorum ☕",
+      "biyografisi": "antalya da antalya",
+      "takip": 0,
+      "takipçi": 0,
+      "paylasimsayısı": 2,
+      "paylasimlar": [
+        {
+          "id": 1,
+          "yazi": "Bugün güzel bir gün!",
+          "url": "react.png",
+          "video": null
+        },
+        {
+          "id": 2,
+          "yazi": "Kahvemi aldım ☕",
+          "url": "react.png",
+          "video": null
+        }
+      ]
+    },
+    {
+      "id": "999d",
+      "isim": "öme",
+      "şifre": "123",
+      "yazi": "",
+      "biyografisi": "",
+      "takip": 0,
+      "takipçi": 0,
+      "paylasimsayısı": 0,
+      "paylasimlar": []
+    }
+  ]
+}

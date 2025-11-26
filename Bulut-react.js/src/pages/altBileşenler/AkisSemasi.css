@@ -1,0 +1,308 @@
+/* GENEL STİL */
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+img,
+video {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* 🔹 GÖNDERİ KUTUSU */
+.gonderi-kutusu {
+  width: 95%;
+  max-width: 600px;
+  margin: 15px auto;
+  padding: 15px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease-in-out;
+}
+
+.gonderi-kutusu:hover {
+  transform: translateY(-3px);
+}
+
+/* PROFİL RESMİ VE İSİM ALANI */
+.resimveisim {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.akıs-seması-profıl-butonu {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  text-align: left;
+}
+
+.profil-resmi-minik {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ccc;
+}
+
+/* GÖNDERİ İÇERİĞİ */
+.gonderi-kutusu h4 {
+  margin: 10px 0;
+  font-size: 15px;
+  color: #333;
+}
+
+.resim {
+  width: 100%;
+  border-radius: 12px;
+  margin-top: 8px;
+}
+
+/* 🔹 PROFİL SAYFASI */
+.profilim-42 {
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+  background: #fff;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.kapatma-butonu-2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.kapatma-butonı-3 {
+  background: none;
+  border: none;
+}
+
+.kapatma-iconu {
+  font-size: 30px;
+  color: #444;
+  transition: 0.2s;
+}
+
+.kapatma-iconu:hover {
+  color: #000;
+}
+
+/* PROFİL BİLGİLERİ */
+.profilim-33 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.profilresmi22 {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #ddd;
+}
+
+.profilim-24 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 6px;
+}
+
+.profil-button12 {
+  background: #f0f0f0;
+  padding: 6px 12px;
+  border-radius: 10px;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.profil-button12:hover {
+  background: #ddd;
+}
+
+/* TAKİP ET / BIRAK BUTONLARI */
+.profil-button332 {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border-radius: 10px;
+  padding: 8px 14px;
+  font-size: 14px;
+  transition: all 0.2s ease-in-out;
+}
+
+.takip-et {
+  background: #1da1f2;
+  color: white;
+}
+
+.takip-et:hover {
+  background: #0d8ae0;
+}
+
+.takipten-cik {
+  background: #efefef;
+  color: #333;
+}
+
+.takipten-cik:hover {
+  background: #e0e0e0;
+}
+
+/* BİYOGRAFİ ALANI */
+.biyografi-div13 {
+  margin: 15px 0;
+  padding: 10px;
+  background: #fafafa;
+  border-radius: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* PROFİL PAYLAŞIMLARI */
+.profil-Akıs-Diyagtamı14 ul li {
+  background: #fff;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+.kücük-div1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.kücükprofilresmi1 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* 🔹 TAKİP / TAKİPÇİ LİSTESİ */
+.profilim-41 {
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+  background: #fff;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.kesfet-ul1 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.her-proilin-butonu1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  background: #f8f8f8;
+  border-radius: 12px;
+  padding: 10px;
+  transition: 0.2s;
+}
+
+.her-proilin-butonu1:hover {
+  background: #eaeaea;
+}
+
+.resim-div1 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#isim-kesfet1 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}
+
+/* 🔹 MOBİL UYUMLULUK */
+@media (max-width: 768px) {
+  .gonderi-kutusu {
+    padding: 12px;
+  }
+
+  .profilim-33 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .profilim-24 {
+    justify-content: center;
+  }
+
+  .profilresmi22 {
+    width: 80px;
+    height: 80px;
+  }
+
+  .profil-button332 {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .profil-Akıs-Diyagtamı14 ul li {
+    padding: 10px;
+  }
+
+  .her-proilin-butonu1 {
+    justify-content: center;
+  }
+
+  #isim-kesfet1 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .profilim-42,
+  .profilim-41 {
+    border-radius: 0;
+    box-shadow: none;
+    padding: 10px;
+  }
+
+  .profil-button12 {
+    font-size: 13px;
+    padding: 5px 8px;
+  }
+
+  .gonderi-kutusu {
+    width: 100%;
+    margin: 8px 0;
+  }
+}

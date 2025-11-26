@@ -1,0 +1,316 @@
+/* 🔹 GENEL SAYFA STİLİ */
+.ksefet-ana-div1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f8fa;
+  min-height: 100vh;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* 🔹 ARAMA KUTUSU */
+.imputvearamabutonu1 {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.kesfet-input1 {
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.kesfet-input1:focus {
+  border-color: #1da1f2;
+  box-shadow: 0 0 5px rgba(29, 161, 242, 0.3);
+}
+
+/* 🔹 ARAMA SONUCU LİSTESİ */
+.kesfet-ul1 {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  max-width: 500px;
+}
+
+#kesfet-id1 {
+  margin-bottom: 10px;
+}
+
+.profılerı-tutacak-div1 {
+  display: flex;
+  align-items: center;
+}
+
+.her-proilin-butonu1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #fff;
+  border: 1px solid #e6ecf0;
+  border-radius: 10px;
+  padding: 10px 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.her-proilin-butonu1:hover {
+  background-color: #f0f8ff;
+  transform: scale(1.02);
+}
+
+.resim-div1 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#isim-kesfet1 {
+  font-size: 16px;
+  color: #333;
+  margin: 0;
+}
+
+/* 🔹 PROFİL GÖRÜNÜMÜ */
+.profilim-41 {
+  background-color: #fff;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  color: #000;
+}
+
+/* Üst kısım (profil resmi, isim, butonlar) */
+.profilim-31 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.profilresmi1 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #1da1f2;
+}
+
+.profilim-21 {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.profil-button1 {
+  background-color: #1da1f2;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 6px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.profil-button1:hover {
+  background-color: #0d8de1;
+}
+
+/* 🔹 BİYOGRAFİ */
+.biyografi-div1 {
+  margin-top: 15px;
+  padding: 10px;
+  background: #f7f9fa;
+  border-radius: 8px;
+}
+
+/* 🔹 PAYLAŞIMLAR */
+.profil-Akıs-Diyagtamı1 {
+  margin-top: 20px;
+}
+
+.profil-Akıs-Diyagtamı1 ul {
+  list-style: none;
+  padding: 0;
+}
+
+.profil-Akıs-Diyagtamı1 li {
+  background: #fff;
+  border: 1px solid #e6ecf0;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.kücük-div1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.kücükprofilresmi1 {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.resim1 {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.vido1 {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+/* 🔹 TELEFON UYUMLULUK */
+@media (max-width: 600px) {
+  .profilim-31 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .profilim-21 {
+    justify-content: center;
+  }
+
+  .profil-button1 {
+    font-size: 13px;
+    padding: 5px 10px;
+  }
+
+  .kesfet-input1 {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+
+  .her-proilin-butonu1 {
+    padding: 8px;
+  }
+
+  .resim-div1 {
+    width: 45px;
+    height: 45px;
+  }
+
+  #isim-kesfet1 {
+    font-size: 15px;
+  }
+}
+
+.yeni-div1 {
+  border-radius: 30px;
+  display: flex;
+  width: 300px;
+  height: 50px;
+}
+
+
+
+.kapatma-butonu-1 {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column-reverse;
+}
+
+.kapatma-butonı-2 {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  transition: transform 0.2s ease, color 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.kapatma-iconu {
+  font-size: 28px;
+  color: #1da1f2;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.kapatma-butonı-2:hover .kapatma-iconu {
+  color: #030303;
+  transform: scale(1.15);
+}
+
+/* 📱 Mobil uyum */
+@media (max-width: 768px) {
+  .kapatma-iconu {
+    font-size: 40%;
+  }
+
+  .kapatma-butonu-1 {
+    top: 8px;
+    right: 8px;
+  }
+}
+/* Ortak buton stili */
+.profil-button32 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 20px;
+  font-size: 10px;
+  font-weight: 600;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: rgb(255, 255, 255);
+  background-color: #22c55e; /* varsayılan: yeşil (takip et) */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.profil-button32:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+/* Takipten çıkma durumundaki stil */
+.profil-button32.takipten-cik {
+  background-color: #d74f4f; /* kırmızı */
+}
+
+.profil-button32.takipten-cik:hover {
+  background-color: #dc2626;
+}
+
+/* İkon stili */
+.takıpbutonları {
+  font-size: 20px;
+}
+
+/* Mobilde küçülme */
+@media (max-width: 600px) {
+  .profil-button32 {
+    font-size: 14px;
+    padding: 8px 14px;
+    gap: 6px;
+  }
+  .takıpbutonları {
+    font-size: 18px;
+  }
+}
